@@ -4,7 +4,6 @@
 The **Library Management System** is a Java-based application with a frontend (HTML, CSS, JavaScript) and backend (Java, Servlet, Tomcat).  
 It allows users to **register, login, borrow, return, and manage books** in a digital library.  
 
----
 
 ## ✨ Features
 - 👤 User Registration & Login  
@@ -14,7 +13,6 @@ It allows users to **register, login, borrow, return, and manage books** in a di
 - ⚙️ Backend with **Java (Servlet + JDBC)**  
 - 🗄️ Database support (MySQL / any SQL DB)  
 
----
 
 ## 🛠️ Tech Stack
 - **Frontend:** HTML, CSS, JavaScript  
@@ -22,6 +20,5 @@ It allows users to **register, login, borrow, return, and manage books** in a di
 - **Database:** MySQL  
 - **Tools:** IntelliJ IDEA, Git, GitHub  
 
----
 
-## 📂 Project Structure
+
