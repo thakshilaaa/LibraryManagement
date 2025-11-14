@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Library System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1 class="title">📚 Library Management</h1>
+
+<div class="container">
+
+    <div id="authSection">
+        <h2>Register</h2>
+        <input id="regUser" placeholder="Username">
+        <input id="regPass" type="password" placeholder="Password">
+        <button onclick="register()">Register</button>
+
+        <h2>Login</h2>
+        <input id="logUser" placeholder="Username">
+        <input id="logPass" type="password" placeholder="Password">
+        <button onclick="login()">Login</button>
+    </div>
+
+    <div id="dashboard" class="hidden">
+        <h2>Welcome, <span id="usernameLabel"></span>!</h2>
+        <p>Role: <span id="roleLabel"></span></p>
+        <button onclick="logout()">Logout</button>
+
+        <hr>
+        <h2>Books</h2>
+        <button onclick="loadBooks()">Refresh Books</button>
+        <div id="bookList" class="book-list"></div>
+
+        <h3>Borrow Book</h3>
+        <input id="borrowBookId" type="number" placeholder="Book ID">
+        <button onclick="borrow()">Borrow</button>
+
+        <h3>Return Book</h3>
+        <input id="returnBookId" type="number" placeholder="Book ID">
+        <button onclick="returnBook()">Return</button>
+
+        <div id="adminPanel" class="hidden">
+            <hr>
+            <h2>Admin Panel</h2>
+            <h3>Add Book</h3>
+            <input id="addId" type="number" placeholder="Book ID">
+            <input id="addTitle" placeholder="Title">
+            <input id="addAuthor" placeholder="Author">
+            <input id="addQty" type="number" placeholder="Quantity">
+            <button onclick="addBook()">Add Book</button>
+        </div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

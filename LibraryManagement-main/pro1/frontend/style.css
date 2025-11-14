@@ -1,0 +1,61 @@
+body {
+    background: #121212;
+    color: #eee;
+    font-family: "Segoe UI", Roboto, Arial;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.title {
+    color: #3ec5ff;
+    margin-bottom: 8px;
+}
+
+.container {
+    width: 480px;
+    margin: 20px auto;
+    background: #1f1f1f;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.6);
+}
+
+input {
+    width: 92%;
+    padding: 10px;
+    margin: 8px 0;
+    background: #2b2b2b;
+    border: 1px solid #3a3a3a;
+    color: #fff;
+    border-radius: 6px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    width: 95%;
+    padding: 10px;
+    margin: 8px 0;
+    background: #3ec5ff;
+    border: none;
+    color: #000;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover { opacity: 0.9; }
+
+.hidden { display: none; }
+
+.book-list {
+    text-align: left;
+    background: #2a2a2a;
+    padding: 10px;
+    border-radius: 8px;
+    max-height: 220px;
+    overflow-y: auto;
+}
+.book-list p { margin: 6px 0; }
